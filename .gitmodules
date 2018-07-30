@@ -1,0 +1,6 @@
+[submodule "configure/tunet-cli"]
+	path = configure/tunet-cli
+	url = git@github.com:syimyuzya/tunet-cli.git
+[submodule "configure/vimrc"]
+	path = configure/vimrc
+	url = git@github.com:amix/vimrc.git
