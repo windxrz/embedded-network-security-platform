@@ -66,3 +66,11 @@
     ```
 
   - 在实现题目代码时，调用php的地址为"/usr/share/apache2/yourpath/file.php"。如代表一道题目的文件夹htdocs，想调用htdocs下的a.php，则写作htdocs/a.php。
+
+
+
+## 主服务器主页&终端主页的相关配置
+
+- 留给主服务器主页&终端主页的端口为7070
+- 对应的资源文件为index
+- 对于配置题目，可能需要修改index/question(这个挺不好的，应该放在一个更公开的位置更好，之后改)
