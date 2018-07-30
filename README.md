@@ -57,3 +57,12 @@
     </VirtualHost>
     ```
 
+- 使能php解释器
+
+  - 因为edison中默认的php检索路径不对，自己写的php不能被找到，修改`/etc/apache2/conf.d/php-fpm.conf`为：
+
+    ```
+    ProxyPassMatch ^/(.*\.php(/.*)?)$ fcgi://127.0.0.1:9000/usr/share/apache2/
+    ```
+
+  - 在实现题目代码时，调用php的地址为"/usr/share/apache2/yourpath/file.php"。如代表一道题目的文件夹htdocs，想调用htdocs下的a.php，则写作htdocs/a.php。
