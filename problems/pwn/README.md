@@ -1,14 +1,11 @@
 # PWN
 
-## 实现方案
+## 文件结构
 
-将需要运行的程序放置在本文件夹中，并命名为`program`（或者修改`run.sh`也行）
-
-接下来运行`./start_prog.sh start`就能自动执行`run.sh`，考虑到program可能会有自毁，所以每次会将`program`拷贝到`/tmp`文件夹下执行，详情可见`run.sh`
-
-
-
-## Bug
-
-不能多个终端同时访问。
+- `program`文件夹，存储pwn的程序
+  - `program`，可执行程序
+  - `run.sh`，首先将`program`拷贝到`/tmp`文件夹下，然后`/tmp`文件夹下的对应程序。
+  - `start_prog.sh`，配置tcp服务器。
+- `index`文件夹，存储题目网页
+- `tcpserver_installer.sh`，安装tcp服务器的脚本
 
