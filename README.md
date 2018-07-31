@@ -20,7 +20,7 @@
     Listen 7070
     ```
 
-  - 包含php等包
+  - 包含php等包（此部分不需要在板子上执行）
 
     ```aconf
     LoadModule php7_module libexec/apache2/libphp7.so
@@ -46,26 +46,17 @@
 
     ```aconf
     <VirtualHost *:7070>
-        DocumentRoot "/the/path/to/website"
+        DocumentRoot "/usr/share/apache2/index"
         ServerName localhost:7070
-        <Directory "/the/path/to/website">
+        ProxyPassMatch ^/(.*\.php(/.*)?)$ fcgi://127.0.0.1:9000/usr/share/apache2/index/$1
+        <Directory "/usr/share/apache2/index">
             Options Indexes FollowSymLinks
-            AddType application/x-httpd-php .php
             AllowOverride None
             Require all granted
         </Directory>
     </VirtualHost>
     ```
 
-- 使能php解释器
-
-  - 因为edison中默认的php检索路径不对，自己写的php不能被找到，修改`/etc/apache2/conf.d/php-fpm.conf`为：
-
-    ```
-    ProxyPassMatch ^/(.*\.php(/.*)?)$ fcgi://127.0.0.1:9000/usr/share/apache2/
-    ```
-
-  - 在实现题目代码时，调用php的地址为"/usr/share/apache2/yourpath/file.php"。如代表一道题目的文件夹htdocs，想调用htdocs下的a.php，则写作htdocs/a.php。
 
 
 
