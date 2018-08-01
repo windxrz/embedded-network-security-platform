@@ -4,7 +4,9 @@
 	<!---- top-grids ---->
 	<div id="Term" class="top-grids text-center">
 		<div class="head-section text-center">
+			<center>
 			<h2>Term Name</h2>
+			<center>
 			<p>Available Problems are as Following</p>
 		</div>
 		<pre>
@@ -37,8 +39,8 @@
 				echo '<div style="float:left;width:325px;height:50px;">';
 				echo '<h4>' . '  :  ' . $host_ip . ':' . $port . '</h4></div>';
 				echo '<div style="float:left;width:100px;height:50px;">';
-				echo '<h4>' . $type . '</h4>';
-;						echo '</div>';
+				echo '<h4>' . $type . '</h4></div>';
+;				echo '</div>';
 				//echo "  :  " . $host_ip . ":" . $port;
 				$num = $num + 1;
 				if($num > 3) {
