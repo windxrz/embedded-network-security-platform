@@ -9,7 +9,7 @@
 
 			<p>最后的赔率是多少？</p>
 			<p>（提示：相信自己的直觉）</p></div>
-			<p><img src="../images/target.jpg" alt="image" width="750px"></img><p>
+			<p><img src="../pic/target.jpg" alt="image" width="750px"></img><p>
 			<h3></h3>
 			<form action="CheckFlag.php" method="get">
   			请提交flag：<input type="text" name="flag" />

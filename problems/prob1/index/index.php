@@ -5,7 +5,7 @@
 			<p>第三章</p>
 			<div class="text-left">
 			<p>十二月二十日，阿虚从离开病榻回到班上的谷口得知春日目前的学校，同时还在她身边发现古泉。说明原委后，原本就憧憬着超自然现象的春日随阿虚来到北高，将实玖瑠从书法社拉到文艺社教室。当春日、古泉、实玖瑠和长门重新在社团教室聚首之时，电脑忽然自行启动... :</p></div>
-			<p><img src="../images/target.jpg" alt="image" width="750px"></img><p>
+			<p><img src="../pic/target.jpg" alt="image" width="750px"></img><p>
 			<p>任务: 帮助阿虚触发【紧急逃离程式】</p>
 			<a href="download.php?file=program">程序下载</a>
 			<p>访问地址: 192.168.1.11:10000</p>

@@ -55,11 +55,11 @@
 						<!----start-top-nav---->
 						 <nav class="top-nav">
 							<ul class="top-nav">
-								<li class="active"><a href="http://192.168.1.2:7070/index.php#home">Home</a></li>
-								<li><a href="http://192.168.1.2:7070/index.php#term">Term</a></li>
-								<li><a href="http://192.168.1.2:7070/index.php#contest">Contest</a></li>
-								<li><a href="http://192.168.1.2:7070/index.php#develop">Develop</a></li>
-								<li><a href="http://192.168.1.2:7070/index.php#contact">Contact</a></li>
+								<li class="active"><a href="http://192.168.1.2:7070/index.php#homepos">Home</a></li>
+								<li><a href="http://192.168.1.2:7070/index.php#termpos">Term</a></li>
+								<li><a href="http://192.168.1.2:7070/index.php#contestpos">Contest</a></li>
+								<li><a href="http://192.168.1.2:7070/index.php#developpos">Develop</a></li>
+								<li><a href="http://192.168.1.2:7070/index.php#contactpos">Contact</a></li>
 								<!-- <li class="team-active"><a href="#team" class="scroll">TEAM</a></li> -->
 							</ul>
 							<!-- <a href="#" id="pull"><img src="../../images/nav-icon.png" title="menu" /></a> -->

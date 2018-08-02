@@ -1,12 +1,13 @@
 <?php require_once("header.php"); ?>
 	<!-- Slideshow 4 -->
+		<a id="homepos"></a>
 		<div  id="top" class="callbacks_container">
 			<ul class="rslides" id="slider4">
 			<li>
 				<img src="../../images/slide1.jpg" alt="">
 				<div class="caption bounceInDown" data-wow-delay="0.6s">
 				<div class="slide-text-info">
-					<span>THU CTF EMBEDED<label> PLATFORM</label></span>
+					<span>THU CTF EMBEDDED<label> PLATFORM</label></span>
 					<h1>WELCOME TO THE CTF WORLD!</h1>
 					<!-- <div class="slide-btns">
 						<a class="startnow" href="#">GET STARTED NOW</a>
@@ -46,6 +47,7 @@
 		<div class="clearfix"> </div>
 	<!----- //End-slider---->
 	<!---- top-grids ---->
+	<a id="termpos"></a>
 	<div id="term" class="top-grids text-center">
 		<h3>Current Available Term</h3>
 		<pre>
@@ -140,6 +142,7 @@
 	</div>
 	<!---- top-grids ---->
 	<div id="contest" class="top-grids text-center">
+		<a id="contestpos"></a>	
 		<h3>Current Contest</h3>
 		<pre>
 		<?php
@@ -188,37 +191,38 @@
 		?>
 		</pre>
 	</div>
+	<a id="developpos"></a>
 	<div id="develop" class="skills">
 		<div class="container">
 		<div class="head-section text-center">
-			<h2>Our Skills</h2>
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor i</p>
+			<h2>What can you do</h2>
+			<p>As a user of THUCTFEP, you can do</p>
 		</div>
 		<div class="services_grids">
 				<div id="canvas">
 					<div class="skill-grids text-center">
 							<div class="col-md-3">	
 								<div class="skill-grid">
-									<div class="circle" id="circles-1"></div>									
-										<h3>HTML</h3>	
+									<div class="circle" id="circles-1"></div>				
+										<h3>Answer Problems</h3>	
 									</div>								  
 							</div>
 							<div class="col-md-3">	
 								<div class="skill-grid">
 									<div class="circle" id="circles-2"></div>									
-										<h3>CSS</h3>	
+										<h3>Add Problems</h3>	
 									</div>								  
 							</div>
 							<div class="col-md-3">	
 								<div class="skill-grid">
-									<div class="circle" id="circles-3"></div>									
-										<h3>Photoshop</h3>	
+									<div class="circle" id="circles-3"></div>				
+										<h3>Hold Contest</h3>	
 									</div>								  
 							</div>
 							<div class="col-md-3">	
 								<div class="skill-grid">
 									<div class="circle" id="circles-4"></div>									
-										<h3>Illustrator</h3>	
+										<h3>Add Term</h3>	
 									</div>								  
 							</div>
 							<div class="clearfix"> </div>
@@ -251,6 +255,7 @@
 	</div>
 	<!---- skills --->
 	<!---- contact ---->
+	<a id="contactpos"></a>
 	<div id="contact" class="team">
 		<div class="container">
 			<div class="head-section text-center">
@@ -261,7 +266,7 @@
 			<div class="team-grids text-center">
 				<div class="col-md-4">
 					<div class="team-grid">
-						<img class="img-responsive t-pic" src="../../images/t1.jpg" title="name" />
+						<img class="img-responsive t-pic" src="../../images/t1.jpeg" title="name" />
 						<h3>席照炜</h3>
 						<span>to be continue</span>
 						<p>to be continue </p>
@@ -274,7 +279,7 @@
 				</div>
 				<div class="col-md-4">
 					<div class="team-grid">
-						<img class="img-responsive t-pic" src="../../images/t2.jpg" title="name" />
+						<img class="img-responsive t-pic" src="../../images/t2.jpeg" title="name" />
 						<h3>徐韧喆</h3>
 						<span>to be continue</span>
 						<p>to be continue </p>
@@ -287,7 +292,7 @@
 				</div>
 				<div class="col-md-4">
 					<div class="team-grid">
-						<img class="img-responsive t-pic" src="../../images/t3.jpg" title="name" />
+						<img class="img-responsive t-pic" src="../../images/t3.jpeg" title="name" />
 						<h3>毛宇飞</h3>
 						<span>to be continue</span>
 						<p>to be continue</p>
@@ -305,12 +310,14 @@
 		<div class="container">
 			<div class="head-section text-center">
 					<h2>Get in touch</h2>
-					<p>LLorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor i</p>
+					<p>This embedded platform belongs to Tsinghua University, developed by Team5, Network Security, 2018 Summer.</p>
 			</div>
 			<!---- contact-grids ---->
 			<div class="contact-grids">
 				<div class="contact-map">
-					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3256420.00766152!2d-94.8190527877968!3d37.15037720226864!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54eab584e432360b%3A0x1c3bb99243deb742!2sUnited+States!5e0!3m2!1sen!2sin!4v1405259548831"> </iframe>
+					<center>
+<script src='https://maps.googleapis.com/maps/api/js?v=3.exp&key=AIzaSyAcwERFylnrWGgdWtW5UA4K4lhy70dpI9A'></script><div style='overflow:hidden;height:400px;width:520px;'><div id='gmap_canvas' style='height:400px;width:520px;'></div><style>#gmap_canvas img{max-width:none!important;background:none!important}</style></div> <a href='http://stilvolle-raumgestaltung.de/'>möbel</a> <script type='text/javascript' src='https://embedmaps.com/google-maps-authorization/script.js?id=16eab00966d2d04b70b3cd0f1cf8750692ecd822'></script><script type='text/javascript'>function init_map(){var myOptions = {zoom:12,center:new google.maps.LatLng(39.9996674,116.32644389999996),mapTypeId: google.maps.MapTypeId.ROADMAP};map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(39.9996674,116.32644389999996)});infowindow = new google.maps.InfoWindow({content:'<strong></strong><br><br> 北京清华大学<br>'});google.maps.event.addListener(marker, 'click', function(){infowindow.open(map,marker);});infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);</script>
+					</center>
 				</div>
 			</div>
 			<!---- contact-grids ---->
