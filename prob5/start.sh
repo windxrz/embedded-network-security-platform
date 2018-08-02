@@ -1,3 +1,3 @@
-cd /usr/share/apache2/prob2/index
+cd /usr/share/apache2/prob5/index
 touch ans.txt
 chmod 666 ans.txt

