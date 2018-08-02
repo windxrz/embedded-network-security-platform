@@ -30,7 +30,7 @@
 				</div>
 			</li>
 			<li>
-				<img src="../../images/slide1.jpg" alt="">
+				<img src="../../images/slide3.jpg" alt="">
 				<div class="caption">
 				<div class="slide-text-info bounceInDown" data-wow-delay="0.6s">
 					<span>HOW TO BE A <label>DEVELOPER</label></span>

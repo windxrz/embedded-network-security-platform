@@ -1,0 +1,10 @@
+#!/usr/bin/expect -f
+set timeout 3
+spawn su root
+expect "Password:"
+send "62772213\r"
+#expect "root*"
+send "./light_on\r"
+send "exit\r"
+#interact
+expect eof

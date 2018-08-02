@@ -55,23 +55,27 @@
 						<!----start-top-nav---->
 						 <nav class="top-nav">
 							<ul class="top-nav">
-								<li class="active"><a href="http://192.168.1.2:7070/index.php">Home</a></li>
+								<div style="width:500px;height:55px;">
+								<div style="float:left;width:100px;height:50px;">
+								<li class="active"><a href="http://192.168.1.2:7070/index.php">Home</a></li></div>
 								<?php
-									if(file_exists("name")) {
-										echo '<a>aaaa</a>';
-										$fr = fopen("name", 'r');
-										$line = str_replace(PHP_EOL, '', fgets($fr));
-										if($line != "") {
-											$name = $line;
-											$name = str_replace(PHP_EOL, '', $name);
-											echo '<li><a> welcome,   ' . $name . '</a></li>';
-											echo '<li><a><form action="LogOut.php" method="get"><input type="submit" value="LogOut" /></form></a></li>';
-										}
-										else {
-											echo '<li><a><form action="LogIn.php" method="get"><input type="text", name="user" /><input type="submit" value="LogIn" /></form></a></li>';
-										}
+		
+									$fr = fopen("name", 'r');
+									$line = str_replace(PHP_EOL, '', fgets($fr));
+									if($line != "") {
+										$name = $line;
+										$name = str_replace(PHP_EOL, '', $name);
+										echo '<div style="float:left;width:200px;height:50px;">';
+										echo '<li><a> welcome,   ' . $name . '</a></li></div>';
+										echo '<div style="float:left;width:200px;height:50px;">';
+										echo '<li><a><form action="LogOut.php" method="get"><input type="submit" value="Log Out" /></form></a></li></div>';
+									}
+									else {										
+										echo '<div style="float:left;width:400px;height:50px;">';
+										echo '<li><a><form action="LogIn.php" method="get"><input type="text", name="user" /><input type="submit" value="Log In" /></form></a></li></div>';
 									}
 								?>
+								</div>
 								<!-- <li>
 								<form action="LogIn.php" method="get">
 								<input type="text", name="user" />
