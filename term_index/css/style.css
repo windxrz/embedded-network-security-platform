@@ -1035,7 +1035,7 @@ ul.team-social li a.twitter span{
 /*---- footer -----*/
 .footer{
 	background: #474747;
-	padding: 2em 0 4em;
+	padding: 2em 1em 4em;
 }
 .footer-grid h3{
 	color:#FFF;
@@ -1043,6 +1043,7 @@ ul.team-social li a.twitter span{
 	text-transform:uppercase;
 	font-size:1.3em;
 	padding-bottom:0.4em;
+	padding-left:0.4em;
 }
 .whoare-u a.footer-logo{
 	font-size:3em;
@@ -1793,10 +1794,10 @@ a.whoare span{
 		margin: 0.2em 0;
 	}
 	.footer-grids div.col-md-3{
-		padding:0;
+		padding:1em;
 	}
 	.footer {
-		padding: 0em 0 2em;
+		padding: 1em 0 2em;
 	}
 	.whoare-u a.footer-logo {
 		font-size: 2.5em;

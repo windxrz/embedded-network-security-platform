@@ -57,7 +57,7 @@
 							<ul class="top-nav">
 								<div style="width:500px;height:55px;">
 								<div style="float:left;width:100px;height:50px;">
-								<li class="active"><a href="http://192.168.1.2:7070/index.php">Home</a></li></div>
+								<li class="active"><a ?href="http://192.168.1.2:7070/index.php">Home</a></li></div>
 								<?php
 		
 									$fr = fopen("name", 'r');

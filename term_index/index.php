@@ -6,8 +6,8 @@
 		<div class="head-section text-center">
 			<center>
 			<h2>Term Name</h2>
-			<center>
 			<p>Available Problems are as Following</p>
+			</center>
 		</div>
 		<pre>
 		<?php

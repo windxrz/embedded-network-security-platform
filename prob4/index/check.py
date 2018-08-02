@@ -10,7 +10,6 @@ from urllib import unquote
 import subprocess
 
 name = unquote(sys.argv[1])
-user = unquote(sys.argv[2])
 ip = subprocess.Popen(["configure_edison", "--showWiFiIP"], stdout=subprocess.PIPE).communicate()[0][: -1]
 browser = webdriver.PhantomJS(service_log_path='./ghostdriver.log')
 _ = browser.get("http://{}:7074/hack.php?name={}".format(ip, name))

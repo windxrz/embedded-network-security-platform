@@ -13,19 +13,21 @@
 			<h3></h3>
 			<form action="CheckFlag.php" method="get">
   			请提交flag：<input type="text" name="flag" />
-			<input type="text", name="user" />
 			<!-- <button onclick="checkflag()"></button> -->
   			<input type="submit" value="提交" />
 			</form>
 			<!-- <p >you have solve this problem!</p> -->
 			<?php 
+				$fr = fopen("name", 'r');
+				$name = str_replace(PHP_EOL, '', fgets($fr));
 				if(file_exists("ans.txt")) {
 					$fr = fopen("ans.txt", 'r');
 					while(!feof($fr)) {
 						$line = fgets($fr);
 						$line = str_replace(PHP_EOL, '', $line); 
-						if($line == "admin") {
+						if($line != "" && $line == $name) {
 							echo '<p >you have solve this problem!</p>';
+							break;
 						}
 					}
 				}

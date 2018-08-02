@@ -10,7 +10,7 @@
 		<h2></h2>
 	</div>
 <div class="footer">
-    <div class="container" width="300px">
+    <div class="container">
         <div class="footer-grids">
             <div class="col-md-3">
                 <div class="footer-grid">
