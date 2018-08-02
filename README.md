@@ -1,4 +1,4 @@
-# distributed-network-security-platform
+# embedded-network-security-platform
 
 ## 文件结构
 
@@ -8,7 +8,9 @@
 
 
 
-## Apache部分配置方法
+## 先决条件
+
+### Apache部分配置方法
 
 在`/etc/apache2`文件夹下
 
@@ -57,11 +59,23 @@
     </VirtualHost>
     ```
 
-
-
-
-## 主服务器主页&终端主页的相关配置
+### 主服务器主页&终端主页的相关配置
 
 - 留给主服务器主页&终端主页的端口为7070
+
 - 对应的资源文件为index
+
 - 对于配置题目，可能需要修改index/question(这个挺不好的，应该放在一个更公开的位置更好，之后改)
+
+  
+
+### 题目配置
+
+各个题目的要求在相应文件夹的`README.md`中。
+
+
+
+## 使用
+
+调用`start.sh`开启各个服务，生成必需的文件。
+
