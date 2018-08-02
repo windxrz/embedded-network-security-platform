@@ -6,7 +6,17 @@
 			<div class="text-left">
 			<p>冈部伦太郎，传说中有名的疯狂科学家 （明明是看过本番才知道嘛= =） 。最近又鼓捣出了一堆乱七八糟的东西，在他搞出的那一堆东西毁灭世界之前，你需要赶紧找出flag以启动时间机器恢复原状。</p>
 			<p>以下链接会前往：</p>
-			<p><a href="http://192.168.1.10:10010/index.cgi" rel="external nofollow">『冈部の未来道具研究所』</a></p></div>
+			<!-- <p><a href="http://192.168.1.10:10010/index.cgi" rel="external nofollow">『冈部の未来道具研究所』</a></p></div> -->
+
+			<?php
+				$host_ip = exec("configure_edison --showWiFiIP");
+				// echo $host_ip . "\n";
+				if(empty($host_ip)) {
+					echo "fail get host ip : something wrong!";
+					exit("error");
+				}
+				echo '<p><a href="http://' . $host_ip . '/index.cgi" rel="external nofollow">『冈部の未来道具研究所』</a></p></div>';
+			?>
 
 			<h3></h3>
 			<form action="CheckFlag.php" method="get">

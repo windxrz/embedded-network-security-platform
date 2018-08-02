@@ -3,8 +3,18 @@
     <h2>XSS</h2>
     <h3>描述</h3>
     <div class="text-left">
-    <p>以下链接会前往xss源站点：<a href="http://192.168.1.10:7074/hack.php" rel="external nofollow">xss</a></p></div>
-
+    <!-- <p>以下链接会前往xss源站点：<a href="http://192.168.1.10:7074/hack.php" rel="external nofollow">xss</a></p> -->
+    <?php
+    	  $host_ip = exec("configure_edison --showWiFiIP");
+				// echo $host_ip . "\n";
+				if(empty($host_ip)) {
+					echo "fail get host ip : something wrong!";
+					exit("error");
+				}
+				echo '<p>以下链接会前往xss源站点：<a href="http://' . $host_ip . ':7074/hack.php" rel="external nofollow">xss</a></p>';
+    ?>
+    
+    </div>
     <h3></h3>
     <form action="CheckFlag.php" method="get">
       请提交flag：<input type="text" name="flag" />

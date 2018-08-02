@@ -8,7 +8,16 @@
 			<p><img src="../pic/target.jpg" alt="image" width="750px"></img><p>
 			<p>任务: 帮助阿虚触发【紧急逃离程式】</p>
 			<a href="download.php?file=program">程序下载</a>
-			<p>访问地址: 192.168.1.11:10000</p>
+			<!-- <p>访问地址: 192.168.1.11:10000</p> -->
+			<?php
+				$host_ip = exec("configure_edison --showWiFiIP");
+				// echo $host_ip . "\n";
+				if(empty($host_ip)) {
+					echo "fail get host ip : something wrong!";
+					exit("error");
+				}
+				echo '<p>访问地址: ' . $host_ip . ':10000</p>';
+			?>
 			<form action="CheckFlag.php" method="get">
   			请提交flag：<input type="text" name="flag" />
 			<input type="text", name="user" />
