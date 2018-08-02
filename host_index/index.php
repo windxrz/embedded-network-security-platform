@@ -316,7 +316,7 @@
 			<div class="contact-grids">
 				<div class="contact-map">
 					<center>
-<script src='https://maps.googleapis.com/maps/api/js?v=3.exp&key=AIzaSyAcwERFylnrWGgdWtW5UA4K4lhy70dpI9A'></script><div style='overflow:hidden;height:400px;width:520px;'><div id='gmap_canvas' style='height:400px;width:520px;'></div><style>#gmap_canvas img{max-width:none!important;background:none!important}</style></div> <a href='http://stilvolle-raumgestaltung.de/'>möbel</a> <script type='text/javascript' src='https://embedmaps.com/google-maps-authorization/script.js?id=16eab00966d2d04b70b3cd0f1cf8750692ecd822'></script><script type='text/javascript'>function init_map(){var myOptions = {zoom:12,center:new google.maps.LatLng(39.9996674,116.32644389999996),mapTypeId: google.maps.MapTypeId.ROADMAP};map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(39.9996674,116.32644389999996)});infowindow = new google.maps.InfoWindow({content:'<strong></strong><br><br> 北京清华大学<br>'});google.maps.event.addListener(marker, 'click', function(){infowindow.open(map,marker);});infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);</script>
+<iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d6112.560418425677!2d116.31777934614311!3d40.00218811725753!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1z5YyX5LqsIOa4heWNjuWkp-Wtpg!5e0!3m2!1szh-CN!2shk!4v1533197113241" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
 					</center>
 				</div>
 			</div>
