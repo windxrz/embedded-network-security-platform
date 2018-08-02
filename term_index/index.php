@@ -26,6 +26,10 @@
 			while(!feof($file)) {
 				$line = fgets($file);
 				$tar = explode("*/*", $line);
+				if(sizeof($tar) < 3) {
+					echo 'error question format!';
+					exit("error");
+				}
 				$port = $tar[0];
 				$name = $tar[1];
 				$type = $tar[2];

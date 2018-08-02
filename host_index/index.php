@@ -93,7 +93,7 @@
 						$str_num = strval($num);
 						$curfile = $dir . "/" . $file;
 						$fr = fopen($curfile, "r");
-						while(!feof($fr)) {
+						if(!feof($fr)) {
 							$line  = fgets($fr);
 							$line = str_replace(PHP_EOL, '', $line); 
 							if(!empty($line)) {
@@ -170,7 +170,7 @@
 						$str_num = strval($num);
 						$curfile = $dir . "/" . $file;
 						$fr = fopen($curfile, "r");
-						while(!feof($fr)) {
+						if(!feof($fr)) {
 							$line  = fgets($fr);
 							$line = str_replace(PHP_EOL, '', $line); 
 							if(!empty($line)) {
@@ -310,6 +310,14 @@
 				<div class="clearfix"> </div>
 			</div>
 			<!---- team-grids ---->
+		</div>
+		<div class="head-section text-center">
+		<h2></h2>
+		<h2></h2>
+		<h2></h2>
+		<h2></h2>
+		<h2></h2>
+		<h2></h2>
 		</div>
 		<div class="container">
 			<div class="head-section text-center">

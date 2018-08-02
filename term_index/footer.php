@@ -1,9 +1,4 @@
-	<h3></h3>
-	<h3></h3>
 	<div class="head-section text-center">
-		<h2></h2>
-		<h2></h2>
-		<h2></h2>
 		<h2></h2>
 		<h2></h2>
 		<h2></h2>
