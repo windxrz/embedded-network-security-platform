@@ -15,7 +15,7 @@
 					echo "fail get host ip : something wrong!";
 					exit("error");
 				}
-				echo '<p><a href="http://' . $host_ip . '/index.cgi" rel="external nofollow">『冈部の未来道具研究所』</a></p></div>';
+				echo '<p><a href="http://' . $host_ip . ':10010/index.cgi" rel="external nofollow">『冈部の未来道具研究所』</a></p></div>';
 			?>
 
 			<h3></h3>
