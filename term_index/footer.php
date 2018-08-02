@@ -10,22 +10,22 @@
 		<h2></h2>
 	</div>
 <div class="footer">
-    <div class="container">
+    <div class="container" width="300px">
         <div class="footer-grids">
             <div class="col-md-3">
                 <div class="footer-grid">
                     <h3>Who we are</h3>
                     <div class="whoare-u">
-                        <a class="footer-logo" href="#">THUCTFEP</a>
+                        <h3>THUCTFEP</h3>
                         <p>This platform is the final project of Network Security in THU</p>
-                        <a class="whoare" href="#">More about us<span> </span></a>
+                        <a class="whoare">More about us<span> </span></a>
                     </div>
                 </div>
             </div>
             <div class="col-md-3">
                 <div class="footer-grid">
                     <h3>Latest works</h3>
-                    <ul class="f-works">
+                    <!-- <ul class="f-works">
                         <li><a href="#"><img src="../../images/f1.jpg" title="name" /></a></li>
                         <li><a href="#"><img src="../../images/f2.jpg" title="name" /></a></li>
                         <li><a href="#"><img src="../../images/f2.jpg" title="name" /></a></li>
@@ -33,7 +33,13 @@
                         <li><a href="#"><img src="../../images/f1.jpg" title="name" /></a></li>
                         <li><a href="#"><img src="../../images/f2.jpg" title="name" /></a></li>
                         <div class="clearfix"> </div>
-                    </ul>
+                    </ul> -->
+                    <div class="whoare-u">
+                    <p>embedded terminal network</p>
+                    <p>CTF website building</p>
+                    <p>different problems updating</p>
+                    <p>more safety measures in CTF</p>
+                    </div>
                 </div>
             </div>
             <div class="col-md-3">
@@ -47,6 +53,13 @@
                             <li><span class="msg"> </span>13687017969@163.com</li>
                         </ul>
                     </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="footer-grid">
+                    <center>
+                    <img src="../images/footlogo.png" alt="footlogo" width="300px"></img>
+                    </center>
                 </div>
             </div>
             <div class="clearfix"> </div>

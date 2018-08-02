@@ -55,11 +55,37 @@
 						<!----start-top-nav---->
 						 <nav class="top-nav">
 							<ul class="top-nav">
-								<li class="active"><a href="http://192.168.1.2:7070/index.php#home">Home</a></li>
-								<li><a href="http://192.168.1.2:7070/index.php#term">Term</a></li>
+								<li class="active"><a href="http://192.168.1.2:7070/index.php">Home</a></li>
+								<?php
+									if(file_exists("name")) {
+										echo '<a>aaaa</a>';
+										$fr = fopen("name", 'r');
+										$line = str_replace(PHP_EOL, '', fgets($fr));
+										if($line != "") {
+											$name = $line;
+											$name = str_replace(PHP_EOL, '', $name);
+											echo '<li><a> welcome,   ' . $name . '</a></li>';
+											echo '<li><a><form action="LogOut.php" method="get"><input type="submit" value="LogOut" /></form></a></li>';
+										}
+										else {
+											echo '<li><a><form action="LogIn.php" method="get"><input type="text", name="user" /><input type="submit" value="LogIn" /></form></a></li>';
+										}
+									}
+								?>
+								<!-- <li>
+								<form action="LogIn.php" method="get">
+								<input type="text", name="user" />
+								<input type="submit" value="提交" />
+								</form>
+								</li>
+								<li>
+								<form action="LogOut.php" method="get">
+								<input type="submit" value="提交" />
+								</li> -->
+								<!-- <li><a href="http://192.168.1.2:7070/index.php#term">Term</a></li>
 								<li><a href="http://192.168.1.2:7070/index.php#contest">Contest</a></li>
 								<li><a href="http://192.168.1.2:7070/index.php#develop">Develop</a></li>
-								<li><a href="http://192.168.1.2:7070/index.php#contact">Contact</a></li>
+								<li><a href="http://192.168.1.2:7070/index.php#contact">Contact</a></li> -->
 								<!-- <li class="team-active"><a href="#team" class="scroll">TEAM</a></li> -->
 							</ul>
 							<!-- <a href="#" id="pull"><img src="../../images/nav-icon.png" title="menu" /></a> -->
