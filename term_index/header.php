@@ -1,7 +1,15 @@
 <!DOCTYPE HTML>
 <html>
 	<head>
-		<title>Home</title>
+		<!-- <title>Home</title> -->
+		<?php
+			if(isset($_GET['name'])) {
+				echo '<title>' . str_replace('_', ' ', $_GET['name']) . '</title>';
+			}
+			else {
+				echo '<title>Unknown Term</title>';
+			}
+		?>
 		<link href="../../css/bootstrap.css" rel='stylesheet' type='text/css' />
 		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 		<script src="../../js/jquery.min.js"></script>
@@ -57,7 +65,8 @@
 							<ul class="top-nav">
 								<div style="width:500px;height:55px;">
 								<div style="float:left;width:100px;height:50px;">
-								<li class="active"><a ?href="http://192.168.1.2:7070/index.php">Home</a></li></div>
+								<li class="active"><a ?href="http://192.168.1.2:7070/index.php">Home</a></li>
+								</div>
 								<?php
 		
 									$fr = fopen("name", 'r');

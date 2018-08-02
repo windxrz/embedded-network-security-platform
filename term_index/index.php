@@ -5,7 +5,15 @@
 	<div id="Term" class="top-grids text-center">
 		<div class="head-section text-center">
 			<center>
-			<h2>Term Name</h2>
+			<!-- <h2>Term Name</h2> -->
+			<?php
+				if(isset($_GET['name'])) {
+					echo '<h2>' . str_replace('_', ' ', $_GET['name']) . '</h2>';
+				}
+				else {
+					echo '<h2>Unknown Name Term</h2>';
+				}
+			?>
 			<p>Available Problems are as Following</p>
 			</center>
 		</div>

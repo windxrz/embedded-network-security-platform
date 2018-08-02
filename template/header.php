@@ -1,7 +1,11 @@
 <!DOCTYPE HTML>
 <html>
 	<head>
-		<title>Home</title>
+		<!-- <title>Home</title> -->
+		<?php
+			$host_ip = exec("configure_edison --showWiFiIP");
+			echo '<title>' . $host_ip . '</title>';
+		?>
 		<link href="../../css/bootstrap.css" rel='stylesheet' type='text/css' />
 		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 		<script src="../../js/jquery.min.js"></script>

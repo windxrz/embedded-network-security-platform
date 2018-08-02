@@ -7,7 +7,8 @@
 				<img src="../../images/slide1.jpg" alt="">
 				<div class="caption bounceInDown" data-wow-delay="0.6s">
 				<div class="slide-text-info">
-					<span>THU CTF EMBEDDED<label> PLATFORM</label></span>
+					<span>THU CTF EMBEDDED</span>
+					<span> PLATFORM</span>
 					<h1>WELCOME TO THE CTF WORLD!</h1>
 					<!-- <div class="slide-btns">
 						<a class="startnow" href="#">GET STARTED NOW</a>
@@ -20,7 +21,8 @@
 				<img src="../../images/slide2.jpg" alt="">
 			<div class="caption">
 				<div class="slide-text-info bounceInDown" data-wow-delay="0.6s">
-					<span>CURRENT MOST POPULAR <label>CONTEST</label></span>
+					<span>CURRENT MOST POPULAR</span>
+					<span>CONTEST</span>
 					<h1>THU CTF</h1>
 					<!-- <div class="slide-btns">
 						<a class="startnow" href="#">GET STARTED NOW</a>
@@ -33,7 +35,8 @@
 				<img src="../../images/slide3.jpg" alt="">
 				<div class="caption">
 				<div class="slide-text-info bounceInDown" data-wow-delay="0.6s">
-					<span>HOW TO BE A <label>DEVELOPER</label></span>
+					<span>HOW TO BE A</span>
+					<span>DEVELOPER</span>
 					<h1>WELCOME TO JOIN US!</h1>
 					<!-- <div class="slide-btns">
 						<a class="startnow" href="#">GET STARTED NOW</a>
@@ -101,7 +104,7 @@
 								echo '<div class="col-md-4"><div class="top-grid"><span>';
 								echo '<label class="icon' . $str_num . '">';
 								echo '</label></span>';
-								echo '<h3><a href="http://' . $line . ':' . $port . '">' . $file . '</a></h3>';
+								echo '<h3><a href="http://' . $line . ':' . $port . '?name=' . $file . '">' . str_replace('_', ' ', $file) . '</a></h3>';
 								echo '<p>now available</p></div></div>';
 								// echo "   term ip is : " . $line . ':' . $port . "\n";
 							}
