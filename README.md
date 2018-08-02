@@ -56,6 +56,12 @@
             AllowOverride None
             Require all granted
         </Directory>
+        <Files ~ "\.py">
+            Deny from all
+        </Files>
+        <Files ~ "\.txt">
+            Deny from all
+        </Files>
     </VirtualHost>
     ```
 
