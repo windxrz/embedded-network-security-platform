@@ -22,8 +22,8 @@ while True :
             tmptime = int(fr.readline())
             if not filename in dic:
                 dic[filename] = (tmptime, curtime)
-            delta = tmptime - curtime - (dic[filename][0] - dic[filename][1])
-            print(abs(delta))
+            delta = abs(tmptime - curtime - (dic[filename][0] - dic[filename][1]))
+            print(delta)
             if (delta >= 10) :
                 tmp = True
         if tmp == True :
