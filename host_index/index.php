@@ -49,7 +49,9 @@
 	<!---- top-grids ---->
 	<a id="termpos"></a>
 	<div id="term" class="top-grids text-center">
-		<h3>Current Available Term</h3>
+		<div class="head-section text-center">
+			<h2>Current Available Term</h2>
+		</div>
 		<pre>
 		<?php
 			$host_ip = exec("configure_edison --showWiFiIP");
@@ -143,7 +145,9 @@
 	<!---- top-grids ---->
 	<div id="contest" class="top-grids text-center">
 		<a id="contestpos"></a>	
-		<h3>Current Contest</h3>
+		<div class="head-section text-center">
+			<h2>Current Contest</h2>
+		</div>
 		<pre>
 		<?php
 			$host_ip = exec("configure_edison --showWiFiIP");
