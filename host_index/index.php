@@ -7,9 +7,9 @@
 				<img src="../../images/slide1.jpg" alt="">
 				<div class="caption bounceInDown" data-wow-delay="0.6s">
 				<div class="slide-text-info">
-					<span>THU CTF EMBEDDED</span>
+					<a href="#term"><span>THU CTF EMBEDDED</span>
 					<span> PLATFORM</span>
-					<h1>WELCOME TO THE CTF WORLD!</h1>
+					<h1>WELCOME TO THE CTF WORLD!</h1></a>
 					<!-- <div class="slide-btns">
 						<a class="startnow" href="#">GET STARTED NOW</a>
 						<a class="livedemo" href="#">LIVE DEMO</a>
@@ -21,9 +21,9 @@
 				<img src="../../images/slide2.jpg" alt="">
 			<div class="caption">
 				<div class="slide-text-info bounceInDown" data-wow-delay="0.6s">
-					<span>CURRENT MOST POPULAR</span>
+					<a href="#contest"><span>CURRENT MOST POPULAR</span>
 					<span>CONTEST</span>
-					<h1>THU CTF</h1>
+					<h1>THU CTF</h1></a>
 					<!-- <div class="slide-btns">
 						<a class="startnow" href="#">GET STARTED NOW</a>
 						<a class="livedemo" href="#">LIVE DEMO</a>
@@ -35,9 +35,9 @@
 				<img src="../../images/slide3.jpg" alt="">
 				<div class="caption">
 				<div class="slide-text-info bounceInDown" data-wow-delay="0.6s">
-					<span>HOW TO BE A</span>
+					<a href="#develop"><span>HOW TO BE A</span>
 					<span>DEVELOPER</span>
-					<h1>WELCOME TO JOIN US!</h1>
+					<h1>WELCOME TO JOIN US!</h1></a>
 					<!-- <div class="slide-btns">
 						<a class="startnow" href="#">GET STARTED NOW</a>
 						<a class="livedemo" href="#">LIVE DEMO</a>
@@ -211,25 +211,25 @@
 							<div class="col-md-3">	
 								<div class="skill-grid">
 									<div class="circle" id="circles-1"></div>				
-										<h3>Answer Problems</h3>	
+										<a href="http://192.168.1.2:7070/answer.php"><h3>Answer Problems</h3></a>	
 									</div>								  
 							</div>
 							<div class="col-md-3">	
 								<div class="skill-grid">
 									<div class="circle" id="circles-2"></div>									
-										<h3>Add Problems</h3>	
+										<a href="http://192.168.1.2:7070/add.php"><h3>Add Problems</h3></a>	
 									</div>								  
 							</div>
 							<div class="col-md-3">	
 								<div class="skill-grid">
 									<div class="circle" id="circles-3"></div>				
-										<h3>Hold Contest</h3>	
+										<a href="http://192.168.1.2:7070/contest.php"><h3>Hold Contest</h3></a>	
 									</div>								  
 							</div>
 							<div class="col-md-3">	
 								<div class="skill-grid">
 									<div class="circle" id="circles-4"></div>									
-										<h3>Add Term</h3>	
+										<a href="http://192.168.1.2:7070/term.php"><h3>Add Term</h3></a>	
 									</div>								  
 							</div>
 							<div class="clearfix"> </div>
