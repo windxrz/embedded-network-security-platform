@@ -7,12 +7,14 @@
 			<center>
 			<!-- <h2>Term Name</h2> -->
 			<?php
-				if(isset($_GET['name'])) {
-					echo '<h2>' . str_replace('_', ' ', $_GET['name']) . '</h2>';
-				}
-				else {
-					echo '<h2>Unknown Name Term</h2>';
-				}
+				// if(isset($_GET['name'])) {
+				// 	echo '<h2>' . str_replace('_', ' ', $_GET['name']) . '</h2>';
+				// }
+				// else {
+				// 	echo '<h2>Unknown Name Term</h2>';
+				// }
+				echo '<h2>Little Black</h2>';
+				//echo '<h2>Little Green</h2>';
 			?>
 			<p>Available Problems are as Following</p>
 			</center>
