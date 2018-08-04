@@ -1,8 +1,14 @@
 #!/bin/bash
 for file in /usr/share/apache2/prob*
 do
-    echo "staring $file"
-    $file/start.sh
+    echo "starting $file"
+    cd $file/index
+    touch ans.txt
+    chmod 666 ans.txt
+    if [ -f $file/start.sh ]; then
+        echo "$file"
+        $file/start.sh
+    fi
     echo ""
 done
 
