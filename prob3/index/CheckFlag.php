@@ -6,7 +6,7 @@
     fclose($fr);
     $fr = fopen("name", 'r');
     $user = str_replace(PHP_EOL, '', fgets($fr));
-    $fclose($fr);
+    fclose($fr);
     if($InputFlag == $TrueFlag) {
         if(file_exists("ans.txt")) {
             $fr = fopen("ans.txt", 'r');
